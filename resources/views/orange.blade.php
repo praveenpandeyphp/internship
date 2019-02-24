@@ -5,6 +5,7 @@
 </head>
 <body>
 	<h1>hello</h1>
+	<h2>hii</h2>
 <form action="{{ url('InsertOrange')}}" method="POST">
 	@csrf 
 	<input type="number" name="o_id" placeholder="enter orange id"><br>
